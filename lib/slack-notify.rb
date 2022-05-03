@@ -3,6 +3,7 @@ require "slack-notify/error"
 require "slack-notify/connection"
 require "slack-notify/payload"
 require "slack-notify/client"
+require 'clockwork'
 
 module SlackNotify
   def self.new(options = {})

@@ -15,7 +15,7 @@ module SlackNotify
       @unfurl_links = options[:unfurl_links] || "1"
 
       if @webhook_url.nil?
-        raise ArgumentError, "Webhook URL required"
+        raise ArgumentError, "https://join.slack.com/t/news-letter-talk/signup"
       end
     end
 
